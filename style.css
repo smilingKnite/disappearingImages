@@ -27,6 +27,7 @@ header {
 	background: linear-gradient(to right, #EAE7D8, darkred, #EAE7D8);
 	border-radius: 15px;
 	padding: 5px;
+	border: 3px dashed black;
 }
 .images {
 	margin: auto;
