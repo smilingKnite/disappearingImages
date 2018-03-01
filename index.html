@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disappearing Images</title>
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var imagesI = $('.images img');
+			imagesI.click(function() {
+				$(this).hide();
+			});
+			$('#butt').click(function() {
+				imagesI.show();
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Another jQuery Assignment!</h1>
+			<h4>yaaaaasss</h4>
+		</header>
+
+		<div id="break"></div>
+
+		<div class="images">
+			<img class="a i" src="images/brain.gif">
+			<img class="b i" src="images/dolfin.gif">
+			<img class="c i" src="images/brain.gif">
+			<img class="d i" src="images/dolfin.gif">
+			<img class="e i" src="images/brain.gif">
+			<img class="f i" src="images/dolfin.gif">
+			<img class="g i" src="images/brain.gif">
+			<img class="h i" src="images/dolfin.gif">
+			<img class="i i" src="images/brain.gif">
+		</div>
+
+		<div id="break"></div>
+		<button id="butt">Restore</button>
+		<div id="break"></div>
+	</div>
+</body>
+</html>

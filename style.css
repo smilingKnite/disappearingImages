@@ -1,0 +1,44 @@
+body {
+	width: 1000px;
+	margin: auto;
+	background: linear-gradient(to right, darkred, #EAE7D8, darkred);
+}
+#wrapper {
+	padding: 5px 10px 10px 10px;
+	vertical-align: top;
+}
+img {
+	height: 150px;
+	display: inline-block;
+	margin: 10px;
+	border: 3px dashed black;
+}
+.newClass {
+	border: 3px solid black;
+}
+#break {
+	width: 800px;
+	height: 4px;
+	background: linear-gradient(to right, #EAE7D8, darkred, #EAE7D8);
+	margin: 15px auto;
+}
+header {
+	text-align: center;
+	background: linear-gradient(to right, #EAE7D8, darkred, #EAE7D8);
+	border-radius: 15px;
+	padding: 5px;
+}
+.images {
+	margin: auto;
+	width: 900px;
+	align-content: center;
+}
+#butt {
+	padding: 7px;
+	font-size: 18px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #EAE7D8;
+	display: block;
+	margin: auto;
+}
