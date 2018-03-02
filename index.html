@@ -3,15 +3,19 @@
 <head>
 	<title>Disappearing Images</title>
 	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var imagesI = $('.images img');
 			imagesI.click(function() {
-				$(this).hide();
+				$(this).fadeOut();
 			});
 			$('#butt').click(function() {
-				imagesI.show();
+				imagesI.fadeIn();
 			});
 			$('header').hover(function() {
 				$(this).toggleClass('newClass');
